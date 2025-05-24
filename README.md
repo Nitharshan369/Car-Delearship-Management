@@ -1,8 +1,7 @@
 # car-dealership-management
 
-Car Dealership Management System
-
 Overview
+  
   The Car Dealership Management System is a comprehensive application designed to manage various aspects of a car dealership. This system allows users to manage inventory, track car types, handle employee information, and monitor car imports and exports. The application is built using Python and utilizes a graphical user interface (GUI) for user interaction.
 
 Features
