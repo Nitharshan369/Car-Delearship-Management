@@ -129,7 +129,7 @@ Installation:
 
   bash
   
-    git clone https://github.com/yourusername/car-dealership-management.git
+    git clone https://github.com/Nitharshan369/car-dealership-management.git
         
 
 --> Navigate to the project directory:
