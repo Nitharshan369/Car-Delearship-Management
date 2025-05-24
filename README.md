@@ -24,20 +24,33 @@ Features
   
   
 File Structure
+
   The project consists of several files and folders, each serving a specific purpose:
+  
   1. MultipleFiles/
+
      This directory contains all the necessary files for the application.
+     
        --> branches.csv:
+     
            -> Description: Contains information about the branches of the dealership.
+     
            -> Fields: BranchID, Location, Manager.
+     
 
        --> car_types.csv:
+     
            -> Description: Lists the different types of cars available.
+     
            -> Fields: TypeID, TypeName.
+     
 
        --> exported_cars.csv:
+     
            -> Description: Records details of cars that have been exported.
+     
            -> Fields: CarID, CarName, ExportDate, Quantity.
+     
 
        --> imported_cars.csv:
            -> Description: Contains information about cars that have been imported.
