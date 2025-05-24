@@ -126,26 +126,30 @@ Technologies Used
 Installation
 
 --> Clone the repository:
-    bash
-    
-        git clone https://github.com/yourusername/car-dealership-management.git
+
+  bash
+  
+    git clone https://github.com/yourusername/car-dealership-management.git
         
 
 --> Navigate to the project directory:
 
-    bash
+  bash
+  
         cd car-dealership-management
 
 
 --> Install the required libraries:
     
-    bash
+  bash
+  
         pip install -r requirements.txt
 
 
 --> Run the application:
 
-    bash
+  bash
+  
         python final_cps.py
 
 Usage
