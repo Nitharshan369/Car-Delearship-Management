@@ -31,7 +31,7 @@ File Structure
 
      This directory contains all the necessary files for the application.
      
-       --> branches.csv:
+     --> branches.csv:
      
      -> Description: Contains information about the branches of the dealership.
      
