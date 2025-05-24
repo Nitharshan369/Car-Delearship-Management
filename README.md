@@ -1,10 +1,10 @@
 # car-dealership-management
 
-Overview
+Overview:
   
   The Car Dealership Management System is a comprehensive application designed to manage various aspects of a car dealership. This system allows users to manage inventory, track car types, handle employee information, and monitor car imports and exports. The application is built using Python and utilizes a graphical user interface (GUI) for user interaction.
 
-Features
+Features:
 
   --> Inventory Management: Keep track of available cars, their quantities, and worth.
   
@@ -23,90 +23,90 @@ Features
   --> Data Visualization: Generate visual representations of data using charts and graphs.
   
   
-File Structure
+File Structure:
 
   The project consists of several files and folders, each serving a specific purpose:
   
-  1. MultipleFiles/
+  1. MultipleFiles
 
      This directory contains all the necessary files for the application.
      
      --> branches.csv:
 
-     -> Description: Contains information about the branches of the dealership.
-     -> Fields: BranchID, Location, Manager.
+       -> Description: Contains information about the branches of the dealership.
+       -> Fields: BranchID, Location, Manager.
      
 
      --> car_types.csv:
      
-     -> Description: Lists the different types of cars available.
-     -> Fields: TypeID, TypeName.
+       -> Description: Lists the different types of cars available.
+       -> Fields: TypeID, TypeName.
      
 
      --> exported_cars.csv:
      
-     -> Description: Records details of cars that have been exported.
-     -> Fields: CarID, CarName, ExportDate, Quantity.
+       -> Description: Records details of cars that have been exported.
+       -> Fields: CarID, CarName, ExportDate, Quantity.
      
 
      --> imported_cars.csv:
      
-     -> Description: Contains information about cars that have been imported.
-     -> Fields: CarID, CarName, ImportDate, Quantity.
+       -> Description: Contains information about cars that have been imported.
+       -> Fields: CarID, CarName, ImportDate, Quantity.
 
 
      --> inventory.csv:
      
-     -> Description: Maintains the inventory of cars available for sale.
-     -> Fields: CarID, CarName, Quantity.
+       -> Description: Maintains the inventory of cars available for sale.
+       -> Fields: CarID, CarName, Quantity.
 
 
      --> newly_arrived.csv:
      
-     -> Description: Tracks newly arrived cars and their quantities.
-     -> Fields: CarID, CarName, ArrivalDate, Quantity.
+       -> Description: Tracks newly arrived cars and their quantities.
+       -> Fields: CarID, CarName, ArrivalDate, Quantity.
 
 
      --> rental_cars.csv:
      
-     -> Description: Contains information about cars available for rent.
-     -> Fields: RentalID, CarName, RentalPricePerDay.
+       -> Description: Contains information about cars available for rent.
+       -> Fields: RentalID, CarName, RentalPricePerDay.
 
 
      --> used_cars.csv:
      
-     -> Description: Records details of used cars available for sale.
-     -> Fields: CarID, CarName, Year, Mileage, Quantity.
+       -> Description: Records details of used cars available for sale.
+       -> Fields: CarID, CarName, Year, Mileage, Quantity.
 
 
      --> worth_of_cars.csv:
      
-     -> Description: Contains information about the worth of cars in the inventory.
-     -> Fields: CarID, CarName, Worth, Quantity.
+       -> Description: Contains information about the worth of cars in the inventory.
+       -> Fields: CarID, CarName, Worth, Quantity.
      
 
      --> employees.csv:
      
-     -> Description: Stores information about employees working at the dealership.
-     -> Fields: EmployeeID, Name, Position.
+       -> Description: Stores information about employees working at the dealership.
+       -> Fields: EmployeeID, Name, Position.
 
 
      --> Car Mangement GUI.png:
      
-     -> Description: A visual representation of the GUI layout for the application.
+       -> Description: A visual representation of the GUI layout for the application.
      
 
      --> car_images.jpg:
      
-     -> Description: Background image used in the GUI.
-     
+       -> Description: Background image used in the GUI.
+       
 
      --> final_cps.py:
      
-     -> Description: The main Python script that runs the application. It includes the GUI implementation, data handling, and various functionalities such as displaying, inserting, updating, and deleting                              records.
+       -> Description: The main Python script that runs the application. It includes the GUI implementation, data handling, and various functionalities such as displaying, inserting, updating, and deleting                              records.
 
 
-Technologies Used
+Technologies Used:
 
 --> Python: The primary programming language used for developing the application.
 
@@ -123,7 +123,7 @@ Technologies Used
 --> tkcalendar: A library for adding calendar widgets to the GUI.
 
 
-Installation
+Installation:
 
 --> Clone the repository:
 
@@ -152,7 +152,8 @@ Installation
   
         python final_cps.py
 
-Usage
+
+Usage:
 
 --> Launch the application to access the main menu.
 
@@ -160,6 +161,7 @@ Usage
 
 --> Visualize data through various plots and charts.
 
-Contributing
+
+Contributing:
 
 --> Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
