@@ -33,9 +33,9 @@ File Structure
      
        --> branches.csv:
      
-           -> Description: Contains information about the branches of the dealership.
+     -> Description: Contains information about the branches of the dealership.
      
-           -> Fields: BranchID, Location, Manager.
+     -> Fields: BranchID, Location, Manager.
      
 
        --> car_types.csv:
@@ -53,51 +53,85 @@ File Structure
      
 
        --> imported_cars.csv:
+     
            -> Description: Contains information about cars that have been imported.
+     
            -> Fields: CarID, CarName, ImportDate, Quantity.
 
 
        --> inventory.csv:
+     
            -> Description: Maintains the inventory of cars available for sale.
+     
            -> Fields: CarID, CarName, Quantity.
 
+
        --> newly_arrived.csv:
+     
            -> Description: Tracks newly arrived cars and their quantities.
+     
            -> Fields: CarID, CarName, ArrivalDate, Quantity.
 
+
        --> rental_cars.csv:
+     
            -> Description: Contains information about cars available for rent.
+     
            -> Fields: RentalID, CarName, RentalPricePerDay.
 
+
        --> used_cars.csv:
+     
            -> Description: Records details of used cars available for sale.
+     
            -> Fields: CarID, CarName, Year, Mileage, Quantity.
 
+
        --> worth_of_cars.csv:
+     
            -> Description: Contains information about the worth of cars in the inventory.
+     
            -> Fields: CarID, CarName, Worth, Quantity.
+     
 
        --> employees.csv:
+     
            -> Description: Stores information about employees working at the dealership.
+     
            -> Fields: EmployeeID, Name, Position.
 
+
        --> Car Mangement GUI.png:
+     
            -> Description: A visual representation of the GUI layout for the application.
+     
 
        --> car_images.jpg:
+     
            -> Description: Background image used in the GUI.
+     
 
        --> final_cps.py:
+     
            -> Description: The main Python script that runs the application. It includes the GUI implementation, data handling, and various functionalities such as displaying, inserting, updating, and deleting                              records.
 
+
 Technologies Used
+
 --> Python: The primary programming language used for developing the application.
+
 --> Tkinter: A standard GUI toolkit for Python, used for creating the graphical user interface.
+
 --> CSV: Used for data storage and management in a tabular format.
+
 --> PIL/Pillow: A Python Imaging Library used for image processing.
+
 --> Matplotlib: A plotting library used for data visualization.
+
 --> Tabulate: A library for formatting tabular data in a visually appealing way.
+
 --> tkcalendar: A library for adding calendar widgets to the GUI.
+
 
 Installation
 --> Clone the repository:
