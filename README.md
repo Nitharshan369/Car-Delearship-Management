@@ -34,7 +34,6 @@ File Structure
        --> branches.csv:
      
            -> Description: Contains information about the branches of the dealership.
-     
            -> Fields: BranchID, Location, Manager.
      
 
