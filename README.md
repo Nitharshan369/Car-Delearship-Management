@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0df159bd-e330-496f-9a60-e33c86870c78)# car-dealership-management
+# car-dealership-management
 
 Car Dealership Management System
 
