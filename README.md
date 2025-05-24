@@ -32,72 +32,62 @@ File Structure
      This directory contains all the necessary files for the application.
      
      --> branches.csv:
-     
+
      -> Description: Contains information about the branches of the dealership.
-     
      -> Fields: BranchID, Location, Manager.
      
 
      --> car_types.csv:
      
      -> Description: Lists the different types of cars available.
-     
      -> Fields: TypeID, TypeName.
      
 
      --> exported_cars.csv:
      
      -> Description: Records details of cars that have been exported.
-     
      -> Fields: CarID, CarName, ExportDate, Quantity.
      
 
      --> imported_cars.csv:
      
      -> Description: Contains information about cars that have been imported.
-     
      -> Fields: CarID, CarName, ImportDate, Quantity.
 
 
      --> inventory.csv:
      
      -> Description: Maintains the inventory of cars available for sale.
-     
      -> Fields: CarID, CarName, Quantity.
 
 
      --> newly_arrived.csv:
      
      -> Description: Tracks newly arrived cars and their quantities.
-     
      -> Fields: CarID, CarName, ArrivalDate, Quantity.
 
 
      --> rental_cars.csv:
      
      -> Description: Contains information about cars available for rent.
-     
      -> Fields: RentalID, CarName, RentalPricePerDay.
 
 
      --> used_cars.csv:
      
      -> Description: Records details of used cars available for sale.
-     
      -> Fields: CarID, CarName, Year, Mileage, Quantity.
 
 
      --> worth_of_cars.csv:
      
      -> Description: Contains information about the worth of cars in the inventory.
-     
      -> Fields: CarID, CarName, Worth, Quantity.
      
 
      --> employees.csv:
      
      -> Description: Stores information about employees working at the dealership.
-     
      -> Fields: EmployeeID, Name, Position.
 
 
@@ -154,13 +144,18 @@ Installation
 
 
 --> Run the application:
-    -> bash
+
+    bash
         python final_cps.py
 
 Usage
+
 --> Launch the application to access the main menu.
+
 --> Use the buttons to navigate through different functionalities such as displaying data, inserting new records, updating existing records, and deleting records.
+
 --> Visualize data through various plots and charts.
 
 Contributing
+
 --> Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
