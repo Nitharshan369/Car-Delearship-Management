@@ -34,6 +34,7 @@ File Structure
        --> branches.csv:
      
            -> Description: Contains information about the branches of the dealership.
+     
            -> Fields: BranchID, Location, Manager.
      
 
@@ -54,6 +55,7 @@ File Structure
        --> imported_cars.csv:
            -> Description: Contains information about cars that have been imported.
            -> Fields: CarID, CarName, ImportDate, Quantity.
+
 
        --> inventory.csv:
            -> Description: Maintains the inventory of cars available for sale.
