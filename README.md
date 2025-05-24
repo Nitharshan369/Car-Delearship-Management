@@ -5,14 +5,23 @@ Overview
   The Car Dealership Management System is a comprehensive application designed to manage various aspects of a car dealership. This system allows users to manage inventory, track car types, handle employee information, and monitor car imports and exports. The application is built using Python and utilizes a graphical user interface (GUI) for user interaction.
 
 Features
+
   --> Inventory Management: Keep track of available cars, their quantities, and worth.
+  
   --> Car Types: Manage different types of cars available in the dealership.
+  
   --> Employee Management: Store and manage employee details.
+  
   --> Import and Export Tracking: Monitor cars that are imported and exported from the dealership.
+  
   --> Used Cars Management: Keep records of used cars available for sale.
+  
   --> New Arrivals: Track newly arrived cars and their quantities.
+  
   --> Rental Cars: Manage rental car information and pricing.
+  
   --> Data Visualization: Generate visual representations of data using charts and graphs.
+  
   
 File Structure
   The project consists of several files and folders, each serving a specific purpose:
