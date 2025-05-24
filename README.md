@@ -38,82 +38,82 @@ File Structure
      -> Fields: BranchID, Location, Manager.
      
 
-       --> car_types.csv:
+     --> car_types.csv:
      
-           -> Description: Lists the different types of cars available.
+     -> Description: Lists the different types of cars available.
      
-           -> Fields: TypeID, TypeName.
-     
-
-       --> exported_cars.csv:
-     
-           -> Description: Records details of cars that have been exported.
-     
-           -> Fields: CarID, CarName, ExportDate, Quantity.
+     -> Fields: TypeID, TypeName.
      
 
-       --> imported_cars.csv:
+     --> exported_cars.csv:
      
-           -> Description: Contains information about cars that have been imported.
+     -> Description: Records details of cars that have been exported.
      
-           -> Fields: CarID, CarName, ImportDate, Quantity.
-
-
-       --> inventory.csv:
-     
-           -> Description: Maintains the inventory of cars available for sale.
-     
-           -> Fields: CarID, CarName, Quantity.
-
-
-       --> newly_arrived.csv:
-     
-           -> Description: Tracks newly arrived cars and their quantities.
-     
-           -> Fields: CarID, CarName, ArrivalDate, Quantity.
-
-
-       --> rental_cars.csv:
-     
-           -> Description: Contains information about cars available for rent.
-     
-           -> Fields: RentalID, CarName, RentalPricePerDay.
-
-
-       --> used_cars.csv:
-     
-           -> Description: Records details of used cars available for sale.
-     
-           -> Fields: CarID, CarName, Year, Mileage, Quantity.
-
-
-       --> worth_of_cars.csv:
-     
-           -> Description: Contains information about the worth of cars in the inventory.
-     
-           -> Fields: CarID, CarName, Worth, Quantity.
+     -> Fields: CarID, CarName, ExportDate, Quantity.
      
 
-       --> employees.csv:
+     --> imported_cars.csv:
      
-           -> Description: Stores information about employees working at the dealership.
+     -> Description: Contains information about cars that have been imported.
      
-           -> Fields: EmployeeID, Name, Position.
+     -> Fields: CarID, CarName, ImportDate, Quantity.
 
 
-       --> Car Mangement GUI.png:
+     --> inventory.csv:
      
-           -> Description: A visual representation of the GUI layout for the application.
+     -> Description: Maintains the inventory of cars available for sale.
+     
+     -> Fields: CarID, CarName, Quantity.
+
+
+     --> newly_arrived.csv:
+     
+     -> Description: Tracks newly arrived cars and their quantities.
+     
+     -> Fields: CarID, CarName, ArrivalDate, Quantity.
+
+
+     --> rental_cars.csv:
+     
+     -> Description: Contains information about cars available for rent.
+     
+     -> Fields: RentalID, CarName, RentalPricePerDay.
+
+
+     --> used_cars.csv:
+     
+     -> Description: Records details of used cars available for sale.
+     
+     -> Fields: CarID, CarName, Year, Mileage, Quantity.
+
+
+     --> worth_of_cars.csv:
+     
+     -> Description: Contains information about the worth of cars in the inventory.
+     
+     -> Fields: CarID, CarName, Worth, Quantity.
      
 
-       --> car_images.jpg:
+     --> employees.csv:
      
-           -> Description: Background image used in the GUI.
+     -> Description: Stores information about employees working at the dealership.
+     
+     -> Fields: EmployeeID, Name, Position.
+
+
+     --> Car Mangement GUI.png:
+     
+     -> Description: A visual representation of the GUI layout for the application.
      
 
-       --> final_cps.py:
+     --> car_images.jpg:
      
-           -> Description: The main Python script that runs the application. It includes the GUI implementation, data handling, and various functionalities such as displaying, inserting, updating, and deleting                              records.
+     -> Description: Background image used in the GUI.
+     
+
+     --> final_cps.py:
+     
+     -> Description: The main Python script that runs the application. It includes the GUI implementation, data handling, and various functionalities such as displaying, inserting, updating, and deleting                              records.
 
 
 Technologies Used
@@ -134,17 +134,24 @@ Technologies Used
 
 
 Installation
+
 --> Clone the repository:
-    -> bash
+
+    bash
         git clone https://github.com/yourusername/car-dealership-management.git
+        
 
 --> Navigate to the project directory:
-    -> bash
+
+    bash
         cd car-dealership-management
 
+
 --> Install the required libraries:
-    -> bash
+    
+    bash
         pip install -r requirements.txt
+
 
 --> Run the application:
     -> bash
