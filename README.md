@@ -24,25 +24,25 @@ The Car Dealership Management System is designed to streamline operations at a c
 ---
 
 ## 🗂️ File Structure
-
-car-dealership-management/
-│
-├── MultipleFiles/
-│ ├── branches.csv # Dealership branches info
-│ ├── car_types.csv # Types of cars
-│ ├── employees.csv # Employee details
-│ ├── exported_cars.csv # Exported car records
-│ ├── imported_cars.csv # Imported car records
-│ ├── inventory.csv # Current inventory data
-│ ├── newly_arrived.csv # Recently arrived cars
-│ ├── rental_cars.csv # Cars available for rent
-│ ├── used_cars.csv # Used cars info
-│ ├── worth_of_cars.csv # Car worth details
-│
-├── final_cps.py # Main Python GUI application
-├── Car Mangement GUI.png # GUI layout screenshot
-├── car_images.jpg # GUI background image
-├── requirements.txt # Python dependencies
+      
+      car-dealership-management/
+      │
+      ├── MultipleFiles/
+      │ ├── branches.csv # Dealership branches info
+      │ ├── car_types.csv # Types of cars
+      │ ├── employees.csv # Employee details
+      │ ├── exported_cars.csv # Exported car records
+      │ ├── imported_cars.csv # Imported car records
+      │ ├── inventory.csv # Current inventory data
+      │ ├── newly_arrived.csv # Recently arrived cars
+      │ ├── rental_cars.csv # Cars available for rent
+      │ ├── used_cars.csv # Used cars info
+      │ ├── worth_of_cars.csv # Car worth details
+      │
+      ├── final_cps.py # Main Python GUI application
+      ├── Car Mangement GUI.png # GUI layout screenshot
+      ├── car_images.jpg # GUI background image
+      ├── requirements.txt # Python dependencies
 
 ---
 
