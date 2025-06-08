@@ -1,9 +1,5 @@
 # 🚗 Car Dealership Management System
 
-A comprehensive **Car Dealership Management System** built with **Python** and a user-friendly **Tkinter GUI**. This application helps manage inventory, employees, car types, imports/exports, and more—all in one place.
-
----
-
 ## 📋 Overview
 
 The Car Dealership Management System is designed to streamline operations at a car dealership. From tracking newly arrived and rental cars to managing employee information and generating visual insights, this application handles it all efficiently.
